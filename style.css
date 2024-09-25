@@ -348,3 +348,13 @@ footer {
 footer p {
     text-align: center;
 }
+
+/* CONSTRUCTION */
+
+.under-construction {
+    background-color: yellow;
+    position: absolute;
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 0.4rem;
+}
