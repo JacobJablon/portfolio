@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob Jablon's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="btn-container">
+            <button class="logo" onclick="location.href='index.html'">Jacob Jablon</button>
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="./assets/resume.pdf" target="_blank">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="assets/jacobHeadshotSquareBW.png" alt="blue dot">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Jacob Jablon</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn-color-1" onclick="window.open('./assets/resume.pdf')">Resume</button>
+                <button class="btn-color-2" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <div class="singular-social-container">
+                    <img src="assets/iconSocialLinkedIn.svg" alt="My LinkedIn profile" class="icon" onclick="window.open('https://linkedin.com/in/jacob-jablon', '_blank')">
+                </div>
+                <div class="singular-social-container">
+                    <img src="assets/iconSocialGitHub.svg" alt="My Github profile" class="icon" onclick="window.open('https://github.com', '_blank')">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="section__text">
+            <p class="section__text__p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+        </div>
+        <div id="all-projects-container">
+            <div class="project-container" onclick="location.href='project1.html'">
+                <img src="assets/projectCastleEscapeSquare.jpg" alt="">
+                <h2>Castle Escape</h2>
+                <p>Tech used: HTML, CSS, JavaScript, PixiJS, Visual Studio Code, Adobe Illustrator</p>
+            </div>
+            <div class="project-container" onclick="location.href='project1.html'">
+                <img src="assets/projectHealthDataVisualSquare.png" alt="">
+                <h2>Health Data Visual</h2>
+                <p>Tech used: JavaScript, Visual Studio Code, and p5.js library</p>
+            </div>
+            <div class="project-container" onclick="location.href='project1.html'">
+                <img src="assets/projectRickAndMortyDB.jpg" alt="">
+                <h2>Rick and Morty DB</h2>
+                <p>Tech used: JavaScript, Visual Studio Code, and p5.js library</p>
+            </div>
+        </div>
+        <div id="project-btn-container">
+            <button class="btn-color-1" onclick="location.href='project1.html'">View More ></button>
+        </div>
+    </section>
+    <section id="about">
+        <div class="section__text">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+        </div>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="assets/jacobHeadshotFull.JPG" alt="Profile picture" class="about-pic">
+            </div>
+            <div class="text-container">
+                <p>Hello, I'm Jacob Jablon and I'm a third year New Media Interactive Development major at at the
+                    Rochester Institute of Technology. Although I am only just beginning my professional career, I am
+                    optimistic about my future in the field of interactive media. I think my strong work ethic, creative
+                    problem-solving skills, and passion for designing and developing interactive media will push me to
+                    go far in this field. I'm excited to continue my education both in school and professional
+                    environments.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="section__text">
+            <p class="section__text__p1">Get in Touch</p>
+            <h1 class="title">Contact Me</h1>
+        </div>
+        <div class="section-container">
+            <div class="contact-info-container">
+                <div class="singular-social-container">
+                    <img src="./assets/iconSocialMail.svg" alt="Email icon" class="icon contact-icon">
+                </div>
+                <p><a href="mailto:examplemail@gmail.com">jrj8250@rit.edu</a></p>
+            </div>
+            <div class="contact-info-container">
+                <div class="singular-social-container">
+                    <img src="./assets/iconSocialLinkedIn.svg" alt="LinkedIn icon" class="icon contact-icon">
+                </div>
+                <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+            </div>
+            <div class="contact-info-container">
+                <div class="singular-social-container">
+                    <img src="./assets/iconSocialGitHub.svg" alt="GitHub icon" class="icon contact-icon">
+                </div>
+                <p><a href="https://www.github.com/">GitHub</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Copyright &#169; 2024 Jacob Jablon. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
