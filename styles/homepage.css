@@ -262,14 +262,14 @@ button {
     flex: 1;
     background: rgb(0, 0, 0, 0.05);
     border-radius: 2rem;
-    border: rgb(163, 163, 163) 0.1rem solid;
+    /* border: rgb(163, 163, 163) 0.1rem solid; */
     text-align: center;
     cursor: pointer;
 }
 
 .project-container:hover {
-    border: rgb(71, 71, 193) 0.1rem solid;
-    color:rgb(71, 71, 193);
+    /* border: rgb(71, 71, 193) 0.1rem solid; */
+    /* color:rgb(71, 71, 193); */
     background: rgb(0, 0, 0, 0.15);
 }
 
@@ -298,7 +298,7 @@ button {
 
 #about img {
     border-radius: 2rem;
-    border: rgb(163, 163, 163) 0.1rem solid;
+    /* border: rgb(163, 163, 163) 0.1rem solid; */
 }
 
 .text-container {
@@ -317,8 +317,7 @@ button {
 }
 
 #contact .section-container {
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
+    border: 0.1rem solid rgb(163, 163, 163);
     border-radius: 2rem;
     margin: 0 auto;
 }

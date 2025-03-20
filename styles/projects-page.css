@@ -156,7 +156,7 @@ section {
     /* flex: 1 0 16rem; */
     background: rgb(0, 0, 0, 0.05);
     border-radius: 2rem;
-    border: rgb(163, 163, 163) 0.1rem solid;
+    /* border: rgb(163, 163, 163) 0.1rem solid; */
     text-align: center;
     cursor: pointer;
 
@@ -164,8 +164,8 @@ section {
 }
 
 .project-container:hover {
-    border: rgb(71, 71, 193) 0.1rem solid;
-    color:rgb(71, 71, 193);
+    /* border: rgb(71, 71, 193) 0.1rem solid; */
+    /* color:rgb(71, 71, 193); */
     background: rgb(0, 0, 0, 0.15);
 }
 
@@ -186,11 +186,6 @@ section {
     justify-content: center;
     gap: 1rem;
 }
-.btn-container {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
 
 button {
     font-weight: 600;
@@ -200,6 +195,17 @@ button {
     border-radius: 2rem;
     border: none;
     cursor: pointer;
+}
+
+/* FOOTER */
+
+footer {
+    margin: 6rem 0 2rem;
+    /* background-color: lightskyblue; */
+}
+
+footer p {
+    text-align: center;
 }
 
 /* CONSTRUCTION */
